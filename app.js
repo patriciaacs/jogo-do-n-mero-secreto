@@ -12,6 +12,7 @@ responsiveVoice.speak (texto, 'Brazilian Portuguese Female', {rate:1.2});
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Número secreto');
     exibirTextoNaTela('p', 'Escolha um número entre 1 e 50');
+
 }
 
 exibirMensagemInicial();
